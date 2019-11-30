@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import StockChart from './components/StockCharts';
 import NavigationBar from './components/Navigationbar';
 import Sidebar from './components/Sidebar';
-import { Jumbotron } from 'react-bootstrap';
 import './App.css';
-import { Layout } from './components/Layout';
 
 export default class App extends Component {
   render() {
@@ -13,6 +11,7 @@ export default class App extends Component {
         <div className="site-box">
           <Sidebar />
           <StockChart />
+          <NavigationBar />
         </div>
       </React.Fragment>
     );

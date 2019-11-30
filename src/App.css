@@ -9,14 +9,14 @@ html, body {
 }
 
 .main-chart {
-  float:right;
+  float: right;
   padding-top: 5%;
   padding-right: 5%;
   bottom: 0;
   right: 0;
   left: 0;
   height: inherit;
-  width: inherit;
+  width: 90%;
   background-color: #222;
 }
 
