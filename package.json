@@ -1,7 +1,7 @@
 {
-  "homepage": "http://davidbm.github.io/stockprices",
+  "homepage": "https://davidbmadsen.github.io/stockprice",
   "name": "stockprice",
-  "version": "0.1.0",
+  "version": "0.7.1",
   "private": true,
   "dependencies": {
     "alphavantage": "^1.2.6",
