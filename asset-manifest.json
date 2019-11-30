@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/stockprice/static/css/main.7915f37a.chunk.css",
+    "main.js": "/stockprice/static/js/main.34472300.chunk.js",
+    "main.js.map": "/stockprice/static/js/main.34472300.chunk.js.map",
+    "runtime-main.js": "/stockprice/static/js/runtime-main.b4c97b25.js",
+    "runtime-main.js.map": "/stockprice/static/js/runtime-main.b4c97b25.js.map",
+    "static/css/2.5a2f7233.chunk.css": "/stockprice/static/css/2.5a2f7233.chunk.css",
+    "static/js/2.b5de2a62.chunk.js": "/stockprice/static/js/2.b5de2a62.chunk.js",
+    "static/js/2.b5de2a62.chunk.js.map": "/stockprice/static/js/2.b5de2a62.chunk.js.map",
+    "index.html": "/stockprice/index.html",
+    "precache-manifest.2301ead4cd4b4d2615955e8892e3bbf1.js": "/stockprice/precache-manifest.2301ead4cd4b4d2615955e8892e3bbf1.js",
+    "service-worker.js": "/stockprice/service-worker.js",
+    "static/css/2.5a2f7233.chunk.css.map": "/stockprice/static/css/2.5a2f7233.chunk.css.map",
+    "static/css/main.7915f37a.chunk.css.map": "/stockprice/static/css/main.7915f37a.chunk.css.map",
+    "static/media/down-arrow.svg": "/stockprice/static/media/down-arrow.8da86117.svg",
+    "static/media/stock-icon.svg": "/stockprice/static/media/stock-icon.7766dc85.svg",
+    "static/media/up-arrow.svg": "/stockprice/static/media/up-arrow.a683e2f2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4c97b25.js",
+    "static/css/2.5a2f7233.chunk.css",
+    "static/js/2.b5de2a62.chunk.js",
+    "static/css/main.7915f37a.chunk.css",
+    "static/js/main.34472300.chunk.js"
+  ]
+}
