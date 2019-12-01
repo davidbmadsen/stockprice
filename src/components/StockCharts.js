@@ -56,7 +56,6 @@ class StockChart extends React.Component {
 
   componentDidMount() {
     if (!this.state.isLoaded) {
-      console.log("API call executed. isLoaded = ", this.isLoaded)
       let polishedData;
       let data = [];
       let ticker = 'AMZN';

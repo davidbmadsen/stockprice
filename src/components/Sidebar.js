@@ -26,10 +26,23 @@ export default class Sidebar extends React.Component {
         return (
             <Styles>
                 <Nav defaultActiveKey="/home" className="flex-column">
-                    <Nav.Link href="/home" align="center">Stocks</Nav.Link>
-                    <Nav.Link eventKey="link-1" align="center">Crypto</Nav.Link>
-                    <Nav.Link eventKey="link-2" align="center">Funds</Nav.Link>
-                    <Nav.Link eventKey="disabled" align="center">About</Nav.Link>
+                    <Accordion>
+                            <Accordion.Toggle as={Nav.Link} eventKey="0">
+                                <Nav.Link align="center">Stocks</Nav.Link>
+                             </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="0">
+                                <Card.Body>Hello! I'm the body</Card.Body>
+                            </Accordion.Collapse>
+                    </Accordion>
+
+                    <Accordion>
+                            <Accordion.Toggle as={Nav.Link} eventKey="0">
+                                <Nav.Link align="center">Crypto</Nav.Link>
+                             </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="0">
+                                <Card.Body>Hello! I'm the body</Card.Body>
+                            </Accordion.Collapse>
+                    </Accordion>
                 </Nav>
             </Styles>
         )
