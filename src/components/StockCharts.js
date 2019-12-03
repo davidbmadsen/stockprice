@@ -22,7 +22,7 @@ const Styles = styled.div`
   bottom: 0;
   right: 0;
   left: 0;
-  height: 93%;
+  height: 92%;
   width: 92%;
 `;
 
@@ -58,7 +58,7 @@ class StockChart extends React.Component {
     if (!this.state.isLoaded) {
       let polishedData;
       let data = [];
-      let ticker = 'AMZN';
+      let ticker = 'TSLA';
       // Fetch data from Alphavantage and transform
       alpha.data.daily(ticker, 'compact')
         .then(data => { polishedData = alpha.util.polish(data)['data'] })
@@ -169,16 +169,16 @@ class TickerBar extends React.Component {
         changeInPrice = "red"
         arrow = downArrow;
       }
-    
-    
 
-    var percentage = (diff/data[99].y)*100;
+
+
+      var percentage = (diff / data[99].y) * 100;
       return (
         <TickerBarStyle >
           <Container className="tickerbar">
             <h1>
               {ticker} &#x2758; &#x24;{data[99].y} <font color={changeInPrice}>
-                {diff.toFixed(2)} &#x28;{percentage.toFixed(2)}%&#x29;</font> <img src={arrow} height="35" width="35" alt=""/>
+                {diff.toFixed(2)} &#x28;{percentage.toFixed(2)}%&#x29;</font> <img src={arrow} height="35" width="35" alt="" />
             </h1>
           </Container>
 
